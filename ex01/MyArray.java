@@ -7,6 +7,7 @@ public class MyArray {
     public static void pr(int[] a){
         for(int i=0; i<a.length; i++) {
             System.out.print(a[i]+" ");
+            System.out.println("커밋 꼭해라 이용준");
         }
     }
     public static int big(int [] a){
