@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/EX02/EX02.iml" filepath="$PROJECT_DIR$/EX02/EX02.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/자바황기태.iml" filepath="$PROJECT_DIR$/.idea/자바황기태.iml" />
     </modules>
   </component>
