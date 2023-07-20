@@ -7,7 +7,7 @@ public class H0207 {
         int x=s.nextInt();
         int y=s.nextInt();
         if((100<=x && x<=200)&&(100<=y && y<=200))
-            System.out.println("사각형 안에"+(x,y)+"있습니다");
+            System.out.println("사각형 안에 점이 있습니다");
         else
             System.out.println("사각형 안에 점이 없습니다");
         s.close();
