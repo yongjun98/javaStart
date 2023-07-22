@@ -13,7 +13,6 @@ public class 머쓱이보다키큰사람 {
         for(int i=0; i<array.length; i++){
             if(array[i]>height){
                 answer++;
-                System.out.println(array[i]);
             }
 
         }
