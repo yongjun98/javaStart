@@ -12,7 +12,7 @@ class Grade {
         return (math+science+english)/3;
     }
 }
-class main{
+ class main{
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
 
