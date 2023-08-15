@@ -44,3 +44,4 @@ class ColorPoint extends Point {
         System.out.println(cp.toString() + "입니다.");
     }
 }
+
