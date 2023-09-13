@@ -1,8 +1,6 @@
-package programmers;
+package programmersLv0;
 
-//parameter : age
-//return 타입 : int
-public class 나이출력 {
+public class ex06 {
     public static void main(String[] args) {
         int age = 40;
         System.out.println(solution(age));
@@ -11,7 +9,6 @@ public class 나이출력 {
     private static int solution(int age) {
         int answer =0;
         answer = 2023 -age;
-
         return answer;
     }
 }
