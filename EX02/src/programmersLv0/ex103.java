@@ -12,7 +12,6 @@ public class ex103 {
         for(int i = 0; i < str1.length(); i++){
             answer += String.valueOf(str1.charAt(i)) + str2.charAt(i);
         }
-
         return answer;
     }
 }
