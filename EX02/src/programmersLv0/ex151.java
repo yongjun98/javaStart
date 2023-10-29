@@ -1,5 +1,6 @@
 package programmersLv0;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ex151 {
@@ -9,21 +10,16 @@ public class ex151 {
     }
 
     private static int[] solution(int n) {
-        int[] answer;
-        int j = 0;
-        int count = 0;
-        for (int i = 0; i <= n; i++) {
+        ArrayList<Integer> answerList = new ArrayList<>();
+        for (int i = 1; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
-                count++;
+                answerList.add(i);
+                if (n / i != i) answerList.add(n / i);
             }
         }
-        answer = new int[count];
-        for (int i = 1; i <= n; i++) {
-            if(n%i==0){
-            answer[j] = i;
-            j++;
-        }
-    }
-        return answer;
+        return answerList.stream()
+                .mapToInt(i -> i)
+                .sorted()
+                .toArray();
     }
 }
